@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/szhu/.tmux'
+let g:netrw_dirhist_2='/usr/local/Cellar/octave/4.0.3/share/octave/site/m/startup'
+let g:netrw_dirhist_3='/ws/program/zookeeper-3.4.6/conf'
+let g:netrw_dirhist_4='/usr/local/etc'
+let g:netrw_dirhist_5='/ws/conf/elasticsearch'
+let g:netrw_dirhist_6='/usr/local/etc/nginx/servers'
+let g:netrw_dirhist_7='/ws/dev/spark-notebook/project'
