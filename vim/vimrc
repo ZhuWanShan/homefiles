@@ -129,6 +129,8 @@ Plug 'plasticboy/vim-markdown'
 Plug 'tpope/vim-speeddating'
 Plug 'jceb/vim-orgmode'
 
+Plug 'python-mode/python-mode'
+
 " Indent Guidle line
 " Plug 'nathanaelkane/vim-indent-guides'
 
@@ -370,7 +372,7 @@ let g:syntastic_style_warning_symbol = '⚠'
 
 " All these mappings work only for python code:
 " Go to definition
-let g:jedi#goto_command = ',d'
+" let g:jedi#goto_command = ',d'
 " Find ocurrences
 let g:jedi#usages_command = ',o'
 " Find assignments
@@ -474,3 +476,11 @@ set listchars=tab:>.
 nnoremap <F2> :set invpaste paste?<CR>
 imap <F2> <C-O>:set invpaste paste?<CR>
 set pastetoggle=<F2>
+
+
+" Python mode settings
+" let g:pymode_python = 'python3'
+set nofoldenable
+let g:pymode_folding = 1
+let g:pymode_doc_bind = ',k'
+let g:pymode_rope_goto_definition_bind = ',d'
